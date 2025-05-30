@@ -1,0 +1,12 @@
+body{
+    background-color: bisque;
+}
+
+button{
+    background-color: rgb(70, 70, 255);
+    color: white;
+}
+
+.heading{
+    text-decoration: underline;
+}

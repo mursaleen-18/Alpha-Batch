@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>animation</title>
+    <style>
+        .container{
+            height: 50vh;
+            width: 50vw;
+            border: 2px solid black;
+            background-color: aquamarine;
+        }
+        .box{
+            height: 40px;
+            width: 40px;
+            border: 2px solid black;
+            border-left: 2px solid red;
+            border-radius: 50%;
+            background-color: lightsteelblue;
+            animation: myanimation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: alternate-reverse;
+        }
+        @keyframes myanimation {
+            from{
+                border-left: 2px solid red;
+            }
+            to{
+                /* transform: translate(30vw); */
+                border-left: 2px solid yellow;
+                transform: rotate(1turn);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+    </div>
+</body>
+</html>
