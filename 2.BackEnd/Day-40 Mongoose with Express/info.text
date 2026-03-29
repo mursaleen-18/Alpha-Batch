@@ -1,0 +1,21 @@
+creating the model:
+    chat will have: (_id, from, to, message, timestamp)
+
+Routes:
+    /chats
+        update
+        delete
+        these operations will be doing using restful APIs.
+Models:
+    Chat Model:(_id, from, to, message, timestamp)
+        the model will be created using mongoose.
+        the models in mongoose become collections in mongodb.
+        the model will be created in a separate file called chat.js
+        the model will be imported in the main server file to perform CRUD operations.
+
+views:
+    the views will be created using ejs.
+    the views will be created in a separate folder called views.
+    the views will be rendered in the main server file using res.render() method.
+    the views will be created for displaying the chats and for adding new chats.
+
