@@ -1,0 +1,2 @@
+Handling deletion
+practiced in the project of day 41
