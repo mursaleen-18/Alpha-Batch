@@ -1,0 +1,10 @@
+Authentication vs Authorization
+Storing passwords
+Hashing
+salting
+Passport - library
+User model
+Configuring Strategies
+Demo user
+SignUp user: post
+Login user
