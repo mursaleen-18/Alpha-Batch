@@ -1,0 +1,15 @@
+state:
+learnt about states 
+
+express session:
+express session options
+
+Storing and using information (express sessions)
+
+connect-flash:
+npm package used to show flash messages.
+
+res.locals
+
+implemented all the above in the project
+
