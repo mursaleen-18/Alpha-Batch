@@ -1,0 +1,2 @@
+login user details: user = magnetic_og
+		Password = hello
