@@ -5,6 +5,8 @@ salting
 Passport - library
 User model
 Configuring Strategies
-Demo user
+
+Demo user:   username = magnetic_og, pass = hello .
+
 SignUp user: post
 Login user
